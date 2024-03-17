@@ -11,7 +11,7 @@ contract CrowdFunding{
         uint256 deadline;   
         uint256 amountCollected;
         address[] donators; //donors of crowdfunding
-        address[] donations;    //donations by donors
+        uint256[] donations;    //donations by donors
     }
 
     mapping (uint256=> Campaign) public campaigns;  
@@ -44,10 +44,13 @@ contract CrowdFunding{
         campaign.donators.push(msg.sender);
         campaign.donations.push(amount);
 
-        (bool.sent)=payable(campaign.owner).call{value: amount}("");
+        bool sent = payable(campaign.owner).send(amount);
 
         if(sent){
             campaign.amountCollected = campaign.amountCollected + amount;
+        }else{
+            // Handle failed payment here, revert transaction or emit an event
+        revert("Failed to send funds to campaign owner");
         }
     
     }
