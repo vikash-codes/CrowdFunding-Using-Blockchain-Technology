@@ -28,6 +28,7 @@ contract CrowdFunding{
         campaign.owner = _owner;
         campaign.title = _title;
         campaign.description = _description;
+        campaign.target = _target;
         campaign.deadline = _deadline;
         campaign.amountCollected = 0;
 
@@ -70,3 +71,6 @@ contract CrowdFunding{
     }
 
 }
+
+//npx hardhat node (run local blockchain)
+//npx hardhat run --network localhost scripts/deploy.js (deploy the contract)

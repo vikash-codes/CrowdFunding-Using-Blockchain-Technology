@@ -1,16 +1,10 @@
 
 const hre = require("hardhat");
-
+//0x5FbDB2315678afecb367f032d93F642f64180aa3
+// 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
 async function main() {
-  // const currentTimestampInSeconds = Math.round(Date.now() / 1000);
-  // const unlockTime = currentTimestampInSeconds + 60;
-
-  // const lockedAmount = hre.ethers.parseEther("0.001");
-
-  // const crowdFunding = await hre.ethers.deployContract("Crowdfunding", [unlockTime], {
-  //   value: lockedAmount,
-  // });
-  const crowdFunding = await hre.ethers.deployContract("Crowdfunding");
+ 
+  const crowdFunding = await hre.ethers.deployContract("CrowdFunding");
 
   await crowdFunding.waitForDeployment();
 
