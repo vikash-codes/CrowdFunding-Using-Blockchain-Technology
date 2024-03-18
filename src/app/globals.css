@@ -31,9 +31,10 @@
   color: #e0e0e0;
 }
 
-.navbar ul li {
-  margin-right: 1rem; /* Adjust the value for desired spacing */
-}
+/* Remove or adjust this rule */
+/* .navbar ul li {
+  margin-right: 1rem; Adjust the value for desired spacing 
+} */
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
