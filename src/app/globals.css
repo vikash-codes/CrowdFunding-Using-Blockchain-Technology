@@ -31,6 +31,14 @@
   color: #e0e0e0;
 }
 
+.deep-blue-accent-400 {
+  color: #60a5fa;
+}
+
+.deep-purple-accent-700 {
+  color: #7e22ce;
+}
+
 /* Remove or adjust this rule */
 /* .navbar ul li {
   margin-right: 1rem; Adjust the value for desired spacing 
