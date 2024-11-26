@@ -49,10 +49,10 @@ md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight
       text-white sm:text-5xl sm: leading-none">
-                Crypto Champ <br className="hidden md:block" />
-                Crowd Funding CK
+                Banaras Hindu University <br className="hidden md:block" />
+                Crowd Funding
               </h2>
-              <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+              <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg">"Join us in transforming ideas into reality. Together, we can fund the future and create lasting impact.".</p>
               <a
                 href="/"
                 aria-label=""
