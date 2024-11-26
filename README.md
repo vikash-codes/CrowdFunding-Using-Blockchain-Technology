@@ -1,2 +1,2 @@
 # CrowdFunding-Using-Blockchain-Technology
-Ethereum Smart Contract NextJS Web3 
+Ethereum Smart Contract, NextJS Web3 
